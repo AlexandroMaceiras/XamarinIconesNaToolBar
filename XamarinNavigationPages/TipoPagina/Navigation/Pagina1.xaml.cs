@@ -18,6 +18,7 @@ namespace XamarinNavigationPages.TipoPagina.Navigation
         }
         private void MudarPagina2(object o, EventArgs e)
         {
+            Title = "Este título só aparece no retorno";
             //App.Current.MainPage = new XamarinNavigationPages.TipoPagina.Navigation.Pagina2(); //Esse não mantem o histórico de quem chamou ela.
             Navigation.PushAsync(new Pagina2()); //Esse MANTEM o histórico de quem chamou ela.
         }

@@ -6,6 +6,14 @@
              mc:Ignorable="d"
              x:Class="XamarinNavigationPages.TipoPagina.Navigation.Pagina1"
              Title="Título da Página 1">
+    <ContentPage.Title>
+        Sobrescreve o Título da Página 1
+    </ContentPage.Title>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" IconImageSource="xamarin.png" />
+        <ToolbarItem Text="Detalhes" IconImageSource="featured.png"/>
+        <ToolbarItem Text="Ordenar" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
             <Label Text="ContentPage"
